@@ -41,6 +41,7 @@ section {
 }
 
 header {
+    height: 50px;
     display: flex;
     align-items: center;
 }
@@ -82,4 +83,22 @@ article:hover {
 
 .details {
     padding: 8px 22px;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: dodgerblue;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.select {
+    height: 30px;
+    width: 150px;
+    border-radius: 4px;
 }
