@@ -5,19 +5,20 @@ $(document).ready(function() {
         reactjs: 'PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC',
         nodejs: 'PLWKjhJtqVAbmGQoa3vFjeRbRADAOC9drk'
     };
+    
     var selectItem = document.getElementById('submit');
     selectItem.onclick = function() {
         var nameItem = document.querySelector('select[name=courses]').value;
 
         for (var ix in playlistArr) {
             if (nameItem === ix) {
-                // console.log(playlistArr[ix]);
+                // console.log(ix);
                 var plID = playlistArr[ix];
             }
         }
 
         var key = "AIzaSyAOJNoVuP44PgbME5vJmD5hRk9VJ2EgERQ";
-        var playlistId = plID;
+        var playlistId= plID;
         var URL = "https://www.googleapis.com/youtube/v3/playlistItems";
 
 
