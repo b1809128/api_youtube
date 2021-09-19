@@ -64,12 +64,13 @@ section {
 }
 
 .logo-text{
-    font: size 2.4rem;
+    font-size:2.4rem;
     font-weight: 600;
     font-family: monospace;
     padding: 0 10px;
     color:dodgerblue;
 }
+
 
 main {
     padding: 385px 18px 10px;
@@ -114,4 +115,15 @@ article:hover {
     height: 30px;
     width: 150px;
     border-radius: 4px;
+}
+
+
+@media screen and (max-width:768px){
+    .logo-text{
+        font-size: .5rem;
+    }
+
+    .select {
+        width: 100px;
+    }
 }
